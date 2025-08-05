@@ -1,0 +1,71 @@
+.lobby-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(120deg, #667eea 0%, #764ba2 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lobby-card {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 30px 40px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lobby-card h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.lobby-card input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  transition: background 0.3s ease;
+  text-align: center;
+}
+
+.lobby-card input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+.lobby-card input:focus {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.lobby-card button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.lobby-card button:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+}
